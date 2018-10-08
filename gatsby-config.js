@@ -66,5 +66,20 @@ module.exports = {
         pathToConfigModule: 'src/utils/typography',
       },
     },
+    {
+      resolve: '@andrew-codes/gatsby-plugin-elasticlunr-search',
+      options: {
+        fields: [
+          'title',
+          'tags',
+        ],
+        resolvers: {
+          MarkdownRemark: {
+            title: node => node.frontmatter.title,
+            tags: node => node.frontmatter.tags,
+          }
+        }
+      }
+    }
   ],
 }

@@ -7,6 +7,7 @@
     "url": "https://github.com/gatsbyjs/gatsby-starter-blog/issues"
   },
   "dependencies": {
+    "@andrew-codes/gatsby-plugin-elasticlunr-search": "^1.0.4",
     "gatsby": "^2.0.0",
     "gatsby-plugin-feed": "^2.0.5",
     "gatsby-plugin-google-analytics": "^2.0.5",
@@ -52,6 +53,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+  },
+  "resolutions": {
+    "**/graphql": "^0.13.2"
   },
   "scripts": {
     "dev": "gatsby develop",
