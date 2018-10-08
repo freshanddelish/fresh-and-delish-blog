@@ -16,7 +16,7 @@ tags:
 
 ---
 
-{{<imgproc "**.jpg" Resize "680x" />}}
+![](sweet-potato-mash.jpg)
 
 Sweet potato mash provides a more flavourful alternative to the traditional ‘white’ mashed potato, without the need for copious quantities of butter. This version is quite rich and creamy, with the added warmth of the nutmeg, so would complement something nice and fresh, or a bit zesty. It also makes for some great comfort food.
 

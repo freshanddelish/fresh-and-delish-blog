@@ -15,7 +15,7 @@ tags:
 
 ---
 
-{{<imgproc "**.jpg" Resize "680x" />}}
+![](imam-bayildi.jpg)
 
 This is my take on the Turkish stuffed eggplant dish, which I’ve modified from Stephanie Alexander’s recipe in [The Cook’s Companion][cooks-companion]. If you’re after some procrastination, [Wikipedia][imam-bayildi] suggests a number of fanciful tales about how the dish got the name ‘imam bayildi’, which apparently translates as something about a priest fainting.
 

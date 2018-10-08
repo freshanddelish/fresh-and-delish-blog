@@ -16,7 +16,7 @@ tags:
 
 ---
 
-{{<imgproc "**.jpg" Resize "680x" />}}
+![](green-smoothie.jpg)
 
 This smoothie really does taste much better than anything its colour ought. It’s sweet, refreshing and nutritious all at the same time. I mean really, how can something so green not be good for you?!
 

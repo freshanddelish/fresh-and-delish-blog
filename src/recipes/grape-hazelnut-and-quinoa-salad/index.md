@@ -16,7 +16,7 @@ tags:
 
 ---
 
-{{<imgproc "**.jpg" Resize "680x" />}}
+![](grape-hazelnut-quinoa-salad.jpg)
 
 Quinoa was one of my best discoveries following my coeliac diagnosis. If I could start eating gluten tomorrow, quinoa would remain one of my staples. I really like the texture, plus quinoa is a great source of nutrients, especially protein. Quinoa is unusual for being a vegetarian complete protein, in fact it’s so nutritious the Incas revered quinoa as sacred and used it to sustain their armies.
 

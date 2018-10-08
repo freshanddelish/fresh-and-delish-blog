@@ -13,7 +13,7 @@ tags:
 
 ---
 
-{{<imgproc "**.jpg" Resize "680x" />}}
+![](mushroom-chestnut-gratin.jpg)
 
 The changing seasons is always an exciting time in the culinary year, so many new foods coming into season! One of those I await most eagerly each autumn is chestnuts, and the first dish I make with them is this mushroom and chestnut gratin.
 

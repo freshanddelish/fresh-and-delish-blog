@@ -13,7 +13,7 @@ tags:
 
 ---
 
-{{<imgproc "**.jpg" Resize "680x" />}}
+![](grilled-swordfish.jpg)
 
 The weekend is just around the corner, and on weekends I usually cook fish. I like to cook fish the same day I buy it, and I can get beautiful fresh fish from the markets on Saturdays. This swordfish, paired with coconut rice and steamed bok choy, is last weekend’s creation. Swordfish has a firmer, more dense consistency than most other fish, which isn’t overwhelmed by the strong flavours of the glaze and sauce here. I’ve also made this with salmon which was very successful too (cooking time just needs to be increased a tad).
 

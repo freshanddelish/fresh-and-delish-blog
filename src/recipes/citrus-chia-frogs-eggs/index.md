@@ -17,7 +17,7 @@ tags:
 
 ---
 
-{{<imgproc "**.jpg" Resize "680x" />}}
+![](chia-goup.jpg)
 
 **DOES NOT CONTAIN FROG**
 

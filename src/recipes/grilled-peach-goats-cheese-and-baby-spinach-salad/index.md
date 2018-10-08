@@ -16,7 +16,7 @@ tags:
 
 ---
 
-{{<imgproc "**.png" Resize "680x" />}}
+![](baked-peach-&-spinach-salad.png)
 
 This recipe came into being after I bought a batch of peaches which turned out to be horribly floury and inedible. Fortunately, even the most unappetising of peaches become a delicacy when cooked.
 

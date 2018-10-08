@@ -15,7 +15,7 @@ tags:
 
 ---
 
-{{<imgproc "**.jpg" Resize "680x" />}}
+![](eggplant-puree.jpg)
 
 This isn’t quite quick, due to the cooking time required, but it is dead easy to make, and oh so yummy. It’s a great option as a side when you’re preparing something else which is a bit involved, as this will take little effort from you and can cook in the mean time.
 

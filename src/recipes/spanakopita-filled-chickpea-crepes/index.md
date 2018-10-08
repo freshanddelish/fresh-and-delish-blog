@@ -14,7 +14,7 @@ tags:
 
 ---
 
-{{<imgproc "**.jpg" Resize "680x" />}}
+![](spanakopita-chickpea-crepes.jpg)
 
 This came about from my unwillingness to give up my favourite Spanakopita filling from my pre-coeliac-diagnosis days. Spanakopita is a Greek spinach and cheese pie. Here, I’ve taken the same spinach and cheese mix, rolled it up in chickpea crepes and topped with tomato sauce.
 

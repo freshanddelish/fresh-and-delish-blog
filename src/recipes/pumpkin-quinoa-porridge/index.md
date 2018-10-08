@@ -15,7 +15,7 @@ tags:
 
 ---
 
-{{<imgproc "**.jpg" Resize "680x" />}}
+![](pumpkin-quinoa-porridge.jpg)
 
 Being a porridge, this is a lovely warm and sweet breakfast or brunch dish, but I did have it for dinner the other night when I was feeling in need of something cosy. I’d had a nap in the afternoon and woke up feeling more groggy than refreshed and thinking that if I was going to cook dinner it had better be particularly comforting and not too involved. So, I made this pumpkin quinoa porridge, and it has rapidly become a regular at my table.
 

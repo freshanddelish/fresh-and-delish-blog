@@ -13,9 +13,9 @@ tags:
   - Vegetarian
 
 ---
-{{<imgproc "egg-quinoa-salad-1.jpg" Resize "680x" />}}
+![](egg-quinoa-salad-1.jpg)
 
-{{<imgproc "egg-quinoa-salad-2.jpg" Resize "680x" />}}
+![](egg-quinoa-salad-2.jpg)
 
 If visiting family interstate for a couple of weeks taught me something it’s this: eating out of someone else’s kitchen is the mother of culinary invention. If you’re travelling, house-sitting, or for whatever reason don’t have access to your favourite go-to ingredients, rather than getting frustrated or feeling defeated why not view it as an opportunity to get creative? It’s moments like these when some of my favourite meals come into being; I may not even know quite what I’m making until I’m almost done, I just start putting things together and see where the food leads me. In this case it was to a refreshing, satisfying and nutritious lunch. Can’t have too many yummy salad ideas methinks.
 

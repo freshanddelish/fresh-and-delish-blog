@@ -16,7 +16,7 @@ tags:
 
 ---
 
-{{<imgproc "stuffed-capsicum.jpg" Resize "680x" />}}
+![](stuffed-capsicum.jpg)
 
 It is possible to overdose on parsley? This is the question my partner’s been asking as he shares his suspicions that I’m trying to poison him with the herb, we’ve been eating that much of it lately! No, I don’t have a weird parsley obsession or craving (and I most certainly am not trying to poison anyone), we just have two parsley plants that are on a mission to take over the world, starting with our veggie garden. In a battle that’s been ongoing for several months now, I’m starting to get the upper hand, in large part thanks to regular batches of [parsley pesto](#parsleypesto).
 
@@ -24,7 +24,7 @@ It is possible to overdose on parsley? This is the question my partner’s been 
 
 I was quite proud of these [stuffed capsicums](#stuffedcapsicums) because they centred around ingredients picked fresh from our garden: the parsley, of course, and also the sage and this delightful harvest of capsicums:
 
-{{<imgproc "capsicum-parsley-harvest.jpg" Resize "680x" />}}
+![](capsicum-parsley-harvest.jpg)}
 
 Enjoy these stuffed capsicums by themselves or pair with a dose of protein, perhaps eggs or baked fish, for a complete meal. If you’re entertaining, the capsicums can be prepared and stuffed in advance. Store them in the fridge in an airtight container. Take them out an hour or so before baking so they can come to room temperature, or allow a bit of extra baking time if they’re still cold.
 

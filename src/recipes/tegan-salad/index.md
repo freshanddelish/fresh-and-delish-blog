@@ -17,7 +17,7 @@ tags:
 
 ---
 
-{{<imgproc "**.jpg" Resize "680x" />}}
+![](tegan-salad.jpg)
 
 I tend to get a little concerned when I hear the ‘vegetarian’ conversation going on in the background while I’m cooking. It goes something like this: my partner being quizzed by our dinner guest along the lines of “so are you vegetarian too?”, “do you always eat vegetarian meals?”, “do you mind not eating meat at home?”, “what about protein?”, etc., etc. Fast forward an hour or two and said guest has not only complemented the meal but scraped his plate clean and even volunteered to do the washing up (actions speak louder than words)… I think maybe I’ve changed someone’s mind on vegetarian cooking!
 

@@ -14,7 +14,7 @@ tags:
 
 ---
 
-{{<imgproc "**.png" Resize "680x" />}}
+![](stuffed-pumpkin-silverbeet.png)
 
 I can never resist buying the golden nugget pumpkins at the Farmers’ Market. Not only  is pumpkin wonderful to eat but this particular variety also look adorable, and when cut in half and stuffed make for a gorgeously presented meal.
 

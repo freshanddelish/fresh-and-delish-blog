@@ -17,7 +17,7 @@ tags:
 
 ---
 
-{{<imgproc "**.jpg" Resize "680x" />}}
+![](snickers-bar-smoothie.jpg)
 
 Deliciousness in a glass! I mean seriously, who needs junk food when you can make treats like this that are made with proper food and contain real nutrients while also making your taste buds super happy?!
 

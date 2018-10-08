@@ -13,7 +13,7 @@ tags:
 
 ---
 
-{{<imgproc "**.jpg" Resize "680x" />}}
+![](warm-mediterranean-rice-salad.jpg)
 
 Like many cooking enthusiasts I spent the days leading up to Christmas planning lunch for Christmas day, with little thought given to Christmas eve. “I’ll throw something quick together” I thought. Christmas eve night arrives and I find my self staying with my sister, who mentions a mate’s helping her out with something and could we feed him too please? Okay, so now I’m in someone else’s kitchen, with someone else’s pantry and we’ve got guests for dinner. Oh dear. A quick (read ‘frantic’) rummage through lil’ sis’ supplies and ideas are starting to form. This is what I came up with and it was good enough to warrant photos and a recipe request from lil’ sis.
 

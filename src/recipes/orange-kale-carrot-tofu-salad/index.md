@@ -14,7 +14,7 @@ tags:
 
 ---
 
-{{<imgproc "orange-tofu-kale-salad.jpg" Resize "680x" />}}
+![](orange-tofu-kale-salad.jpg)
 
 Summer has arrived and doesn’t the warmer weather just make it so much easier to eat well?! Here’s another idea for a refreshing and tasty salad to enjoy and feel good about. To my readers in the Northern hemisphere, the key fruit and vegetables: oranges, carrots and leafy greens, are in season during winter too, and it’s never the wrong time of year to eat well!
 
@@ -28,7 +28,7 @@ This salad is super fresh and simply dressed, it’s all about letting quality i
 
 Did I mention fresh was the key here? I’m a bit proud of our little veggie garden lately which has become quite productive; you can’t get much fresher than picked 15 minutes ago! In case you were wondering, here’s the before photo: spring harvest of homegrown parsley, carrots and kale…
 
-{{<imgproc "ingredients.jpg" Resize "680x" />}}
+![](ingredients.jpg)
 
 This salad is good prepared and served straight away, but if you’re the oranised type it doesn’t hurt to let the tofu ‘marinate’ with the oranges and herbs in the fridge for a few hours – just see the guidelines in the recipe below.
 

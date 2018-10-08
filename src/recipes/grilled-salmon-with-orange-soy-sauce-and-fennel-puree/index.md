@@ -12,7 +12,7 @@ tags:
 
 ---
 
-{{<imgproc "**.jpg" Resize "680x" />}}
+![](salmon-orange-soy-fennel.jpg)
 
 This orange-soy sauce, out of [Fish Without A Doubt][fish-without-a-doubt], is one of my favorites. The combination of the sweet, salty and buttery is just devine. The fennel puree is more mellow and adds a nice contrast. Try pairing this with the [marinated mushrooms, fennel and grilled potato salad][mushroom-fennel-potato-salad].
 

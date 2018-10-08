@@ -12,7 +12,7 @@ tags:
 
 ---
 
-{{<imgproc "**.jpg" Resize "680x" />}}
+![](quinoa-pumpkin-halloumi.jpg)
 
 This is one of those dishes that you look at and ask “umm, really?” but yes, this really does work. The sweetness of the pumpkin and dates and the saltiness of the halloumi and pistachios complement each other perfectly, and the result is simply delectable. While I would like to be able to claim credit for the idea of cooking quinoa in peppermint tea, it actually came from a cous cous recipe in [Tea Cookbook][tea-cookbook] by Tonia George.
 

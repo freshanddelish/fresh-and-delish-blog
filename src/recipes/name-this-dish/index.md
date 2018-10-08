@@ -12,7 +12,7 @@ tags:
 
 ---
 
-{{<imgproc "**.jpg" Resize "680x" />}}
+![](toasted-fig-brie-linseed-slices.jpg)
 
 Figs are in season and abundant at the Farmers’ Market; as I adore fresh figs I find this very exciting. Having bought two bags of figs at the markets last weekend, I recalled fondly some very tasty fig and brie mini pizzas I made for a dinner party a few years ago. I wanted a healthier option to the pizza base though, so paired the toppings with some linseed meal crackers. The only thing is, I need your help to name them. The best I can come up with is ‘Toasted fig, brie, balsamic caramelised onion and walnut linseed slices’ which, while descriptive, is a little long. So, have a go at making these and suggest a new name in the comments section.
 

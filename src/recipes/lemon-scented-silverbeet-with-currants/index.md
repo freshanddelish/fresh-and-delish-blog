@@ -16,7 +16,7 @@ tags:
 
 ---
 
-{{<imgproc "**.jpg" Resize "680x" />}}
+![](silverbeet-lemon-currants.jp)
 
 This is a simple and effective way of livening up a humble plate of silverbeet. The mellow fruitiness of the olive oil is brightened by the lemon juice, and the currants add little bursts of sweetness to each mouthful.
 

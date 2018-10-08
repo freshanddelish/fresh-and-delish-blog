@@ -16,7 +16,7 @@ tags:
 
 ---
 
-{{<imgproc "**.jpg" Resize "680x" />}}
+![](potato-mushroom-fennel.jpg)
 
 I like to serve this salad as an accompaniment to fish, especially a stronger-flavoured fish like salmon. There’s something about the combination of earthy mushrooms and slightly salty potato that just seems like a good match for fish to me. Add the fennel and you’ve got a nice seasonal salad for Autumn.
 

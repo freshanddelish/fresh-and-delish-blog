@@ -14,7 +14,7 @@ tags:
 
 ---
 
-{{<imgproc "**.jpg" Resize "680x" />}}
+![](chickpea-tagine.jpg)
 
 This dish was inspired by a [fish tagine][bbc-fish-tagine] I tried a few months ago. I was really taken by the combination of flavours: it’s quite sweet from the dried fruit, heavy with spices and brightened by the lemon. I didn’t think the ‘fishiness’ worked in it though, so I turned it into a chickpea tagine with much better results.
 

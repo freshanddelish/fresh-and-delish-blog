@@ -15,7 +15,7 @@ tags:
 
 ---
 
-{{<imgproc "**.jpg" Resize "680x" />}}
+![](caremalised-fennel-halloumi.jpg)
 
 I made halloumi from scratch for the first time last weekend! And it worked! Here’s one of my subsequent creations which I served up for a friend the other night. She hadn’t tried halloumi or fennel before, and I think I sold her on both accounts with this dish.
 

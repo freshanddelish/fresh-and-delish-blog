@@ -13,7 +13,7 @@ tags:
 
 ---
 
-{{<imgproc "**.png" Resize "680x" />}}
+![](spinach-souffle.png)
 
 If I had to choose one dish to have for dinner every night for the rest of my life, these spinach and fetta soufflés would quite possibly be it! Knowing the soufflé’s reputation for being highly temperamental and near-on impossible to pull off, I was somewhat apprehensive the first time I attempted this recipe. However, years later I can happily report that I have made this recipe dozens of times and never once had it fail. The recipe has developed from the spinach soufflé recipe in [Joy of Cooking: All about Vegetarian Cooking][joy-of-cooking] by Irma Rombauer et al.
 

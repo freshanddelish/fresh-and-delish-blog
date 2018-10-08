@@ -14,7 +14,7 @@ tags:
 
 ---
 
-{{<imgproc "**.jpg" Resize "680x" />}}
+![](carrot-chestnut-silverbeet-salad.jpg)
 
 Hello and welcome to the latest episode of ‘What’s Left in the Fridge at the End of the Week?’ And the answer is: carrots, chestnuts, a bunch of silverbeet and some lemons. The lemons are still in the fridge, everything else went into this surprisingly successful creation that I’ll definitely be making again.
 

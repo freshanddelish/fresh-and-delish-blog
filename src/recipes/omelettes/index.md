@@ -14,7 +14,7 @@ tags:
 
 ---
 
-{{<imgproc "**.png" Resize "680x" />}}
+![](sweet-potato-omlette.png)
 
 This is definitely one of our go-to recipes. Omelettes are quick, easy, tasty, healthy, and the ingredients are flexible depending on what’s on hand, which makes them a great weeknight dinner option.
 

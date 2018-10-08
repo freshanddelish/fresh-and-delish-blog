@@ -17,7 +17,7 @@ tags:
 
 ---
 
-{{<imgproc "**.jpg" Resize "680x" />}}
+![](crunchy-mixed-greens-salad.jpg)
 
 <figure> 
 

@@ -16,7 +16,7 @@ tags:
 
 ---
 
-{{<imgproc "**.jpg" Resize "680x" />}}
+![](vege-stack.jpg)
 
 > _“What’s for dinner?”_
 >

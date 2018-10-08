@@ -14,7 +14,7 @@ tags:
 
 ---
 
-{{<imgproc "**.png" Resize "680x" />}}
+![](mixed-bean-and-avacado-salad.png)
 
 
 Sitting down to write my first post and a natural starting point is my all time favourite recipe to share with people. How did this recipe earn its status? Well, it’s one of our favourites to eat because it’s super tasty and packed full of nutrients, and at the same time is really quick and easy to prepare.

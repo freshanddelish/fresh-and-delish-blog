@@ -13,7 +13,7 @@ tags:
 
 ---
 
-{{<imgproc "**.jpg" Resize "680x" />}}
+![](ricotta-and-pilaf.jpg)
 
 > _“It was a dark and stormy night during a miserably cold winter. Fortunately, thanks to Fresh & delish, they had the cosiest comfort food ever to warm them.”_
 

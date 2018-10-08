@@ -14,7 +14,7 @@ tags:
 
 ---
 
-{{<imgproc "**.jpg" Resize "680x" />}}
+![](ricotta-stuffed-mushrooms.jpg)
 
 If you’re in Australia at the moment, chances are you’ve got a barbecue or three coming up. If you’re in cooler climes, then you might be looking for cosy dishes to bake. Either way, these stuffed mushrooms fit the bill; talk about versatile!
 

@@ -15,7 +15,7 @@ tags:
 
 ---
 
-{{<imgproc "**.jpg" Resize "680x" />}}
+![](fruit-and-nut-balls.jpg)
 
 Okay, so to say this blog’s been neglected lately is something of an understatement. Sometimes life just gets in the way and there are only so many things you can keep up with at once. Well, life has settled down somewhat lately, and I’ve been getting a number of requests to start posting again, so here goes…
 
