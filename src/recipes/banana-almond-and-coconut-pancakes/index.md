@@ -27,18 +27,18 @@ These pancakes are a good way to use up bananas which have ripened beyond eating
 
 Serves 3 generously, or perhaps 4 more respectably! (Makes about 9 8cm-diameter pancakes.)
 
-  * 1/2 cup almond meal
-  * 1/4 cup coconut flour
-  * 1/2 cup plain gluten-free flour*
-  * 3 teaspoons baking powder
-  * 1/4 teaspoon salt
-  * 1 cup ripe bananas, mashed (2 large or 3 small bananas)
-  * 2 eggs, lightly whisked
-  * 1/2 cup coconut milk
-  * 1 tablespoon amaretti (alternatively you could try substituting 1 – 2 teaspoons almond essence)
-  * 1/4 cup slivered almonds, toasted
-  * 1 teaspoon butter
-  * Maple syrup or honey, seasonal fruit or other toppings to serve**
+* 1/2 cup almond meal
+* 1/4 cup coconut flour
+* 1/2 cup plain gluten-free flour*
+* 3 teaspoons baking powder
+* 1/4 teaspoon salt
+* 1 cup ripe bananas, mashed (2 large or 3 small bananas)
+* 2 eggs, lightly whisked
+* 1/2 cup coconut milk
+* 1 tablespoon amaretti (alternatively you could try substituting 1 – 2 teaspoons almond essence)
+* 1/4 cup slivered almonds, toasted
+* 1 teaspoon butter
+* Maple syrup or honey, seasonal fruit or other toppings to serve**
 
 *I use the brown rice gluten-free flour mix suggested in _[Gluten-Free Baking Classics][3]_, by Annalise Roberts: 6 parts brown rice flour : 2 parts potato starch : 1 part tapioca starch.
 
@@ -54,15 +54,14 @@ Heat a non-stick frying pan over a medium-low heat and melt a third of the butte
 
 Serve immediately, topped with maple syrup or honey and fresh and/or cooked fruit.
 
-
 ### <a name="applesauce"></a> Apple Sauce
 
 Makes roughly  1 1/2 cups, which is about right for the above quantity of pancakes.
 
-  * 3 granny-smith* apples, peeled, cored and chopped into about 1cm pieces
-  * 1/2-1 teaspoon ground cinnamon, or 1/2 a cinnamon stick
-  * 1/4-1/2 teaspoon ground cloves, or 9 whole cloves
-  * 1 teaspoon raw sugar (white would also work)
+* 3 granny-smith* apples, peeled, cored and chopped into about 1cm pieces
+* 1/2-1 teaspoon ground cinnamon, or 1/2 a cinnamon stick
+* 1/4-1/2 teaspoon ground cloves, or 9 whole cloves
+* 1 teaspoon raw sugar (white would also work)
 
 *if you happen to have a different variety of apples on hand, go ahead and use them, but omit the sugar. You could also use a similar recipe with pears.
 
@@ -70,15 +69,14 @@ Place apples in a small saucepan and add barely enough boiling water to cover. I
 
 Drain apples, and fish out the spices (if added). Mash the apple. Add sugar and ground spices (if using) to taste and you’re done. This sauce will keep in the fridge for a few days.
 
-
 ### <a name="strawberrysauce"></a> Strawberry Sauce
 
 Makes roughly  1 1/2 cups, which is generous for the above quantity of pancakes as this sauce is very strong.
 
-  * 500g fresh strawberries*, stems removed, halved
-  * Juice of half a lemon (about 1 – 1 1/2 tablespoons. You could also try substituting balsamic vinegar, in which case you might want to cut down the sugar)
-  * 1 tablespoon caster sugar
-  * 1 teaspoon vanilla essence
+* 500g fresh strawberries*, stems removed, halved
+* Juice of half a lemon (about 1 – 1 1/2 tablespoons. You could also try substituting balsamic vinegar, in which case you might want to cut down the sugar)
+* 1 tablespoon caster sugar
+* 1 teaspoon vanilla essence
 
 *This recipe will work with most fresh or frozen berries, just adjust the sugar and lemon juice to taste.
 
@@ -86,14 +84,13 @@ Place strawberries in a small saucepan over a medium heat, and toss with sugar a
 
 Allow to cool slightly before serving. This sauce will keep in the fridge for a few days.
 
-
 ### <a name="cinnamonbakedpear"></a> Cinnamon Baked Pear
 
 Serves 3-4 as a pancake topping, again matching the above quantity of pancakes.
 
-  * 2 pears*, cored and cut into thin wedges/slices (about 5mm at their thickest point)
-  * A few pinches cinnamon
-  * Olive oil
+* 2 pears*, cored and cut into thin wedges/slices (about 5mm at their thickest point)
+* A few pinches cinnamon
+* Olive oil
 
 *This would also work well with apples or perhaps peaches, but for peaches I’d double the thickness of the slices.
 

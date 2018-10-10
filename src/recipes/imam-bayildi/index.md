@@ -55,4 +55,4 @@ Remove eggplant from the baking dish and allow to cool. Refrigerate overnight, a
  [peel-seed-tomatoes]: http://www.formerchef.com/2009/08/20/how-to-peel-and-seed-fresh-tomatoes/
  [cooks-companion]: http://www.amazon.com/The-Cooks-Companion-Ingredients-Australian/dp/1920989005%3FSubscriptionId%3D0ENGV10E9K9QDNSJ5C82%26tag%3Dfredel09-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D1920989005
  [imam-bayildi]: http://en.wikipedia.org/wiki/Imam_bayildi
- [omelettes]: {{< ref "/recipes/omelettes" >}}
+ [omelettes]: /2013/03/11/2013-3-11-omlettes/

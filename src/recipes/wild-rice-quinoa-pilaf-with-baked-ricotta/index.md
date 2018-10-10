@@ -69,5 +69,5 @@ Wrap ricotta in paper towel or cheesecloth and squeeze out any excess liquid. Tr
 Spoon ricotta into prepared baking dish and use the back of a dessert spoon to press down and flatten out until it is evenly spread over the dish. Transfer to the oven and bake until the top is a light golden-brown colour, about 45-60 minutes. Cut into slices and serve.
 
  [thousand-gluten-free-recipes]: http://www.amazon.com/1000-Gluten-Free-Recipes/dp/B00464EAVG%3FSubscriptionId%3D0ENGV10E9K9QDNSJ5C82%26tag%3Dfredel09-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB00464EAVG
- [tomato-sauce]: {{< ref "/recipes/spanakopita-filled-chickpea-crepes#tomatosauce" >}}
- [chickpea-tagine]: {{< ref "/recipes/chickpea-tagine-with-morrocan-quinoa-pilaf#chickpeatagine" >}}
+ [tomato-sauce]: /2013/05/08/2013-4-30-spanakopita-filled-chickpea-crepes/#tomatosauce
+ [chickpea-tagine]: /2013/04/01/2013-3-30-chickpea-tagine-with-morrocan-quinoa-pilaf/#chickpeatagine

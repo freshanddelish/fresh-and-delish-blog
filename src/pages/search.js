@@ -29,7 +29,7 @@ class Search extends React.Component {
           <ul>
             {this.state.results.map(page => (
               <li key={page.title}>
-                {page.title}: {page.tags !== undefined ? page.tags.join(`, `) : ""}
+                <a href={page.slug}>{page.title}</a>: {page.tags !== undefined ? page.tags.join(`, `) : ""}
               </li>
             ))}
           </ul>

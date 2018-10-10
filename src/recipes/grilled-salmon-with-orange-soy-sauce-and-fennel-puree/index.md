@@ -68,4 +68,4 @@ Makes about 1/3 cup, enough to accompany 2-3 serves of salmon or more of a more 
 Heat orange juice in a small saucepan and bring to the boil (keep an eye on it as the juice will boil over if it gets too hot). Reduce heat so you have an active simmer and cook until juice is reduced to 2-3 tablespoons, by which point it should be starting to thicken. Stir in the soy sauce. Add the butter one or two pieces at a time, whisking to incorporate before adding more, until all the butter is added and sauce is well mixed. If not serving immediately, then just before serving reheat and whisk to recombine if the sauce has started to separate.
 
  [fish-without-a-doubt]: http://www.amazon.com/Fish-Without-Doubt-Essential-Companion/dp/061853119X%3FSubscriptionId%3D0ENGV10E9K9QDNSJ5C82%26tag%3Dfredel09-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D061853119X
- [mushroom-fennel-potato-salad]: {{< ref "/recipes/marinated-mushroom-fennel-and-grilled-potato-salad" >}}
+ [mushroom-fennel-potato-salad]: /2013/04/25/2013-4-22-marinated-mushroom-fennel-and-grilled-potato-salad/
