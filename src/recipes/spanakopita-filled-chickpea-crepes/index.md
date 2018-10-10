@@ -5,7 +5,7 @@ type: post
 date: 2013-05-08T14:12:29+00:00
 url: /2013/05/08/2013-4-30-spanakopita-filled-chickpea-crepes/
 categories:
-  - Uncategorized
+  - Recipes
 tags:
   - Appetisers
   - Eggs

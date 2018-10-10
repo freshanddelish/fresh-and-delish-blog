@@ -5,7 +5,7 @@ type: post
 date: 2015-01-14T01:28:12+00:00
 url: /2015/01/14/2015-1-6-crunchy-mixed-greens-with-mustard-vinaigrette/
 categories:
-  - Uncategorized
+  - Recipes
 tags:
   - Dairy/lactose-free friendly
   - Nut-free friendly

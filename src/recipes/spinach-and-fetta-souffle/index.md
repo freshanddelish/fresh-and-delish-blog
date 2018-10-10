@@ -5,7 +5,7 @@ type: post
 date: 2013-03-10T11:49:51+00:00
 url: /2013/03/10/2013-3-8-spinach-and-fetta-souffle/
 categories:
-  - Uncategorized
+  - Recipes
 tags:
   - Eggs
   - Nut-free friendly

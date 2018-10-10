@@ -5,7 +5,7 @@ type: post
 date: 2015-02-23T07:31:52+00:00
 url: /2015/02/23/2015-1-1-tegan-salad/
 categories:
-  - Uncategorized
+  - Recipes
 tags:
   - Dairy/lactose-free friendly
   - Eggs

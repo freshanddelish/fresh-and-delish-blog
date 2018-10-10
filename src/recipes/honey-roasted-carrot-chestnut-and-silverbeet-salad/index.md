@@ -5,7 +5,7 @@ type: post
 date: 2014-12-07T09:36:51+00:00
 url: /2014/12/07/2014-7-27-honey-roasted-carrot-chestnut-and-silverbeet-salad/
 categories:
-  - Uncategorized
+  - Recipes
 tags:
   - Dairy/lactose-free friendly
   - Salads

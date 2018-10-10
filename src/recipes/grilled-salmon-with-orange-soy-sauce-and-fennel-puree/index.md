@@ -5,7 +5,7 @@ type: post
 date: 2013-04-27T04:41:20+00:00
 url: /2013/04/27/2013-4-22-grilled-salmon-with-orange-soy-sauce-and-fennel-puree/
 categories:
-  - Uncategorized
+  - Recipes
 tags:
   - Fish
   - Nut-free friendly

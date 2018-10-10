@@ -5,7 +5,7 @@ type: post
 date: 2013-03-11T03:13:14+00:00
 url: /2013/03/11/2013-3-11-omlettes/
 categories:
-  - Uncategorized
+  - Recipes
 tags:
   - Eggs
   - Nut-free friendly

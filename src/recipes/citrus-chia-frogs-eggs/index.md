@@ -5,7 +5,7 @@ type: post
 date: 2014-08-23T23:31:31+00:00
 url: /2014/08/23/2014-7-27-citrus-chia-frogs-eggs/
 categories:
-  - Uncategorized
+  - Recipes
 tags:
   - Dairy/lactose-free friendly
   - Drinks

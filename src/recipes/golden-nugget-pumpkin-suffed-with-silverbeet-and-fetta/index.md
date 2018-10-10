@@ -5,7 +5,7 @@ type: post
 date: 2013-03-24T09:47:49+00:00
 url: /2013/03/24/2013-3-11-golden-nugget-pumpkin-suffed-with-silverbeet-and-fetta/
 categories:
-  - Uncategorized
+  - Recipes
 tags:
   - Dairy/lactose-free friendly
   - Nut-free friendly

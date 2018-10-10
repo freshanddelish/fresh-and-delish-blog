@@ -5,7 +5,7 @@ type: post
 date: 2013-04-30T12:40:13+00:00
 url: /2013/04/30/2013-4-18-mushroom-and-chestnut-gratin/
 categories:
-  - Uncategorized
+  - Recipes
 tags:
   - Dairy/lactose-free friendly
   - Vegan friendly

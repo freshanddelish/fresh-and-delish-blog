@@ -5,7 +5,7 @@ type: post
 date: 2013-03-30T09:54:00+00:00
 url: /2013/03/30/2013-3-30-grilled-vegetable-stacks/
 categories:
-  - Uncategorized
+  - Recipes
 tags:
   - Dairy/lactose-free friendly
   - Eggs

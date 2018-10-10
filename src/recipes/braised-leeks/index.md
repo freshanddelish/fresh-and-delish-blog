@@ -5,7 +5,7 @@ type: post
 date: 2013-04-11T12:25:58+00:00
 url: /2013/04/11/2013-4-8-braised-leeks/
 categories:
-  - Uncategorized
+  - Recipes
 tags:
   - Dairy/lactose-free friendly
   - Nut-free friendly

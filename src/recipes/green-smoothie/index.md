@@ -5,7 +5,7 @@ type: post
 date: 2013-04-28T11:18:51+00:00
 url: /2013/04/28/2013-4-28-green-smoothie/
 categories:
-  - Uncategorized
+  - Recipes
 tags:
   - Dairy/lactose-free friendly
   - Drinks

@@ -5,7 +5,7 @@ type: post
 date: 2014-12-15T05:23:37+00:00
 url: /2014/12/15/2014-11-25-orange-kale-carrot-tofu-salad/
 categories:
-  - Uncategorized
+  - Recipes
 tags:
   - Nut-free friendly
   - Salads

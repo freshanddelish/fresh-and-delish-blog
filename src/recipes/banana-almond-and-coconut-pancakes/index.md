@@ -5,7 +5,7 @@ type: post
 date: 2013-03-30T04:26:01+00:00
 url: /2013/03/30/2013-3-30-banana-almond-and-coconut-pancakes/
 categories:
-  - Uncategorized
+  - Recipes
 tags:
   - 'Breakfast & brunch'
   - Dairy/lactose-free friendly

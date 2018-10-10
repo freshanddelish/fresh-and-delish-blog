@@ -5,7 +5,7 @@ type: post
 date: 2013-06-23T10:11:21+00:00
 url: /2013/06/23/2013-6-23-buckwheat-porridge/
 categories:
-  - Uncategorized
+  - Recipes
 tags:
   - 'Breakfast & brunch'
   - Dairy/lactose-free friendly

@@ -5,7 +5,7 @@ type: post
 date: 2013-04-25T13:08:11+00:00
 url: /2013/04/25/2013-4-22-marinated-mushroom-fennel-and-grilled-potato-salad/
 categories:
-  - Uncategorized
+  - Recipes
 tags:
   - Dairy/lactose-free friendly
   - Nut-free friendly

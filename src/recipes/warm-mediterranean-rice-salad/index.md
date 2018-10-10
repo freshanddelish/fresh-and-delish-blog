@@ -5,7 +5,7 @@ type: post
 date: 2015-01-08T23:33:13+00:00
 url: /2015/01/08/2014-12-26-warm-mediterranean-rice-salad/
 categories:
-  - Uncategorized
+  - Recipes
 tags:
   - Legumes
   - Vegan friendly

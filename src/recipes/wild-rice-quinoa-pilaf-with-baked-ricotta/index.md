@@ -5,7 +5,7 @@ type: post
 date: 2014-07-17T11:57:19+00:00
 url: /2014/07/17/2014-7-15-wild-rice-quinoa-pilaf-with-baked-ricotta/
 categories:
-  - Uncategorized
+  - Recipes
 tags:
   - Nut-free friendly
   - Sides

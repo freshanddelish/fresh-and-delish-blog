@@ -5,7 +5,7 @@ type: post
 date: 2013-04-15T12:20:42+00:00
 url: /2013/04/15/2013-4-15-broccoli-salad/
 categories:
-  - Uncategorized
+  - Recipes
 tags:
   - Dairy/lactose-free friendly
   - Nut-free friendly

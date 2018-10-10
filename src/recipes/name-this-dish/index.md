@@ -5,7 +5,7 @@ type: post
 date: 2013-04-01T05:09:12+00:00
 url: /2013/04/01/2013-3-30-name-this-dish/
 categories:
-  - Uncategorized
+  - Recipes
 tags:
   - "Hors d'oeuvres"
   - Vegetarian

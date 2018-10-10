@@ -5,7 +5,7 @@ type: post
 date: 2013-04-18T12:40:15+00:00
 url: /2013/04/18/2013-4-18-lemon-scented-silverbeet-with-currants/
 categories:
-  - Uncategorized
+  - Recipes
 tags:
   - Dairy/lactose-free friendly
   - Nut-free friendly

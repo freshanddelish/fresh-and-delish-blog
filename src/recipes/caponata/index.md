@@ -5,7 +5,7 @@ type: post
 date: 2013-03-24T12:35:50+00:00
 url: /2013/03/24/2013-3-20-caponata/
 categories:
-  - Uncategorized
+  - Recipes
 tags:
   - Dairy/lactose-free friendly
   - Eggs
