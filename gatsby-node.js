@@ -8,6 +8,7 @@ exports.createPages = ({ graphql, actions }) => {
 
   return new Promise((resolve, reject) => {
     const blogPost = path.resolve('./src/templates/blog-post.js')
+    const tagTemplate = path.resolve('./src/templates/tag.js')
     resolve(
       graphql(
         `
@@ -23,6 +24,7 @@ exports.createPages = ({ graphql, actions }) => {
                   }
                   frontmatter {
                     title
+                    tags
                   }
                 }
               }
@@ -50,6 +52,25 @@ exports.createPages = ({ graphql, actions }) => {
               previous,
               next,
             },
+          })
+        })
+
+        // Create Tag pages
+        let tags = []
+        posts.forEach(edge => {
+          if (_.get(edge, "node.frontmatter.tags")) {
+            tags = tags.concat(edge.node.frontmatter.tags)
+          }
+        })
+        tags = _.uniq(tags)
+
+        tags.forEach(tag => {
+          createPage({
+            path: `/tags/${_.kebabCase(tag)}`,
+            component: tagTemplate,
+            context: {
+              tag,
+            }
           })
         })
       })
