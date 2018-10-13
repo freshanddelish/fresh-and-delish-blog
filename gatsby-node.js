@@ -12,7 +12,10 @@ exports.createPages = ({ graphql, actions }) => {
       graphql(
         `
           {
-            allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }, limit: 1000) {
+            allMarkdownRemark(
+                filter: { fields: { sourceInstanceName: { eq: "recipes" } } },
+                sort: { fields: [frontmatter___date], order: DESC },
+                limit: 1000) {
               edges {
                 node {
                   fields {
@@ -54,6 +57,31 @@ exports.createPages = ({ graphql, actions }) => {
   })
 }
 
+function findFileNode({ node, getNode }) {
+  // Find the file node.
+  let fileNode = node
+
+  let whileCount = 0
+  while (
+    fileNode.internal.type !== `File` &&
+    fileNode.parent &&
+    getNode(fileNode.parent) !== undefined &&
+    whileCount < 101
+  ) {
+    fileNode = getNode(fileNode.parent)
+
+    whileCount += 1
+    if (whileCount > 100) {
+      console.log(
+        `It looks like you have a node that's set its parent as itself`,
+        fileNode
+      )
+    }
+  }
+
+  return fileNode
+}
+
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
@@ -62,6 +90,14 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     const value = url !== undefined ? url : createFilePath({ node, getNode })
     createNodeField({
       name: `slug`,
+      node,
+      value,
+    })
+  }
+  if (node.internal.type !== `File`) {
+    const value = findFileNode({ node, getNode }).sourceInstanceName
+    createNodeField({
+      name: `sourceInstanceName`,
       node,
       value,
     })
