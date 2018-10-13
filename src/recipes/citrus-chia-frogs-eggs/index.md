@@ -10,7 +10,7 @@ tags:
   - Dairy/lactose-free friendly
   - Drinks
   - Nut-free friendly
-  - 'Quick &amp; easy'
+  - 'Quick & easy'
   - Snacks
   - Vegan friendly
   - Vegetarian
