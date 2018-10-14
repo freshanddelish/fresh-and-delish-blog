@@ -3,8 +3,8 @@ import Helmet from 'react-helmet'
 import { Link,graphql } from 'gatsby'
 import get from 'lodash/get'
 
-import Bio from '../components/Bio'
-import Layout from '../components/layout'
+import Bio from '../components-old/Bio'
+import Layout from '../components-old/layout'
 import { rhythm, scale } from '../utils/typography'
 
 const TagTemplate = ({ pageContext, data, location }) => {

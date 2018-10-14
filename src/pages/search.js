@@ -3,8 +3,8 @@ import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 
-import Bio from '../components/Bio'
-import Layout from '../components/layout'
+import Bio from '../components-old/Bio'
+import Layout from '../components-old/layout'
 import {Index} from 'elasticlunr';
 
 class Search extends React.Component {

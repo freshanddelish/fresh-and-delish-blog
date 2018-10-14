@@ -4,8 +4,8 @@ import get from 'lodash/get'
 import kebabCase from 'lodash/kebabCase'
 import Helmet from 'react-helmet'
 
-import Bio from '../components/Bio'
-import Layout from '../components/layout'
+import Bio from '../components-old/Bio'
+import Layout from '../components-old/layout'
 import { rhythm } from '../utils/typography'
 
 class TagsPage extends React.Component {
