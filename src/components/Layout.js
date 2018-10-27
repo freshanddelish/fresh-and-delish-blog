@@ -4,10 +4,11 @@ import 'tachyons'
 import '../styles/story.less'
 import favicon from '../images/favicon.ico'
 import config from '../utils/siteConfig'
+import Header from './Header'
 // import Menu from '../components/Menu'
 // import Footer from '../components/Footer'
 
-const Template = ({ children }) => {
+const Layout = ({ children }) => {
   return (
     <div className="siteRoot">
       <Helmet>
@@ -25,15 +26,18 @@ const Template = ({ children }) => {
       </Helmet>
 
       <>
-      {/* FIXME(gdennis): add class is-page-true on recipes / blog posts */}
-        <div className="ma0 bg-white">
-          {/* <Menu /> */}
-          {children}
+        <div className="siteContent">
+          {/* FIXME(gdennis): add class is-page-true on recipes / blog posts */}
+          <div className="ma0 bg-white">
+            <Header />
+            {/* <Menu /> */}
+            {children}
+          </div>
+          {/* <Footer /> */}
         </div>
-        {/* <Footer /> */}
       </>
     </div>
   )
 }
 
-export default Template
+export default Layout

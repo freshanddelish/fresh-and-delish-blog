@@ -6,14 +6,28 @@ import get from 'lodash/get'
 import Bio from '../components-old/Bio'
 import Layout from '../components/Layout'
 import { rhythm, scale } from '../utils/typography'
+import config from '../utils/siteConfig'
+
+
+const HeaderOverrides = ({title, url}) => (
+  <Helmet>
+    <title>{title}</title>
+    <meta
+      property="og:title"
+      content={title}
+    />
+    <meta property="og:url" content={url} />
+  </Helmet>);
 
 const TagTemplate = ({ pageContext, data, location }) => {
   const { tag } = pageContext;
   const { edges, totalCount } = data.allMarkdownRemark
+  const title = `Tag: ${tag} - ${config.siteTitle}`;
   const tagHeader = `${totalCount} recipe${ totalCount === 1 ? "" : "s"} tagged with "${tag}"`
 
   return (
-    <Layout location={location}>
+    <Layout>
+      <HeaderOverrides title={title} url={location.href} />
       <h1>{tagHeader}</h1>
       <ul>
         {edges.map(({ node }) => {
