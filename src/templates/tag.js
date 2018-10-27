@@ -4,7 +4,7 @@ import { Link,graphql } from 'gatsby'
 import get from 'lodash/get'
 
 import Bio from '../components-old/Bio'
-import Layout from '../components-old/layout'
+import Layout from '../components/Layout'
 import { rhythm, scale } from '../utils/typography'
 
 const TagTemplate = ({ pageContext, data, location }) => {
