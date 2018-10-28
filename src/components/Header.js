@@ -46,7 +46,7 @@ const activeLinkStyle = {
 
 const Header = ({data, title, subtitle}) => (
     <header className="cover bg-top" style={{backgroundImage: `url(${data.header.childImageSharp.fixed.src})`, backgroundPosition: 'center'}}>
-        <div className="bg-black-30 bb bt">
+        <div className="bg-black-40 bb bt">
             <Menu />
             <div id="hdr" className="tc-l pv4-ns pv5-l pv2 ph3 ph4-ns">
                 <h1 className="near-white mt1-ns f2 fw3 mb0 mt0 lh-title">{title}</h1>

@@ -4,6 +4,7 @@ author: Kim Heenan
 type: post
 date: 2013-04-11T12:56:51+00:00
 url: /2013/04/11/2013-4-11-sweet-potato-mash/
+featuredImage: sweet-potato-mash.jpg
 categories:
   - Recipes
 tags:

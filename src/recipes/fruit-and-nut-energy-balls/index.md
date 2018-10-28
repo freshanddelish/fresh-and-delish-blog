@@ -4,6 +4,7 @@ author: Kim Heenan
 type: post
 date: 2013-12-01T07:33:54+00:00
 url: /2013/12/01/2013-11-25-fruit-and-nut-energy-balls/
+featuredImage: fruit-and-nut-balls.jpg
 categories:
   - Recipes
 tags:

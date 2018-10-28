@@ -4,6 +4,7 @@ author: Kim Heenan
 type: post
 date: 2013-03-08T10:33:01+00:00
 url: /2013/03/08/2013-3-3-mixed-bean-and-avocado-salad/
+featuredImage: mixed-bean-and-avacado-salad.png
 categories:
   - Recipes
 tags:

@@ -4,6 +4,7 @@ author: Kim Heenan
 type: post
 date: 2013-03-27T11:18:23+00:00
 url: /2013/03/27/2013-3-25-grape-hazelnut-and-quinoa-salad/
+featuredImage: grape-hazelnut-quinoa-salad.jpg
 categories:
   - Recipes
 tags:

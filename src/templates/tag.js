@@ -65,7 +65,7 @@ export const pageQuery = graphql`
             title
             featuredImage {
               childImageSharp {
-                fluid {
+                fluid(toFormat: JPG) {
                   ...GatsbyImageSharpFluid
                 }
               }

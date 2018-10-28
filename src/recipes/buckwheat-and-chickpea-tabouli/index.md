@@ -4,6 +4,7 @@ author: Kim Heenan
 type: post
 date: 2013-04-04T12:12:37+00:00
 url: /2013/04/04/2013-4-3-buckwheat-and-chickpea-tabouli/
+featuredImage: buckwheat-tabouli.jpg
 categories:
   - Recipes
 tags:

@@ -4,6 +4,7 @@ author: Kim Heenan
 type: post
 date: 2013-03-24T09:47:49+00:00
 url: /2013/03/24/2013-3-11-golden-nugget-pumpkin-suffed-with-silverbeet-and-fetta/
+featuredImage: stuffed-pumpkin-silverbeet.png
 categories:
   - Recipes
 tags:

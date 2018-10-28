@@ -4,6 +4,7 @@ author: Kim Heenan
 type: post
 date: 2013-04-01T04:48:36+00:00
 url: /2013/04/01/2013-3-30-chickpea-tagine-with-morrocan-quinoa-pilaf/
+featuredImage: chickpea-tagine.jpg
 categories:
   - Recipes
 tags:

@@ -4,6 +4,7 @@ author: Kim Heenan
 type: post
 date: 2015-01-20T03:29:16+00:00
 url: /2015/01/20/2014-12-24-egg-quinoa-salad-with-moroccan-spices-lime-infused-yoghurt/
+featuredImage: egg-quinoa-salad-1.jpg
 categories:
   - Recipes
 tags:

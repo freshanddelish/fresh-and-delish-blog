@@ -4,6 +4,7 @@ author: Kim Heenan
 type: post
 date: 2013-03-30T09:54:00+00:00
 url: /2013/03/30/2013-3-30-grilled-vegetable-stacks/
+featuredImage: vege-stack.jpg
 categories:
   - Recipes
 tags:

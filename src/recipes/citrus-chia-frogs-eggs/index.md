@@ -4,6 +4,7 @@ author: Kim Heenan
 type: post
 date: 2014-08-23T23:31:31+00:00
 url: /2014/08/23/2014-7-27-citrus-chia-frogs-eggs/
+featuredImage: chia-goup.jpg
 categories:
   - Recipes
 tags:

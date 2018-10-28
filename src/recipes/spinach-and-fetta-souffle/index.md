@@ -4,6 +4,7 @@ author: Kim Heenan
 type: post
 date: 2013-03-10T11:49:51+00:00
 url: /2013/03/10/2013-3-8-spinach-and-fetta-souffle/
+featuredImage: spinach-souffle.png
 categories:
   - Recipes
 tags:

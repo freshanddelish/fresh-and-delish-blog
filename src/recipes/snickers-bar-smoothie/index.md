@@ -4,6 +4,7 @@ author: Kim Heenan
 type: post
 date: 2014-12-09T06:41:26+00:00
 url: /2014/12/09/2014-12-9-snickers-bar-smoothie/
+featuredImage: snickers-bar-smoothie.jpg
 categories:
   - Recipes
 tags:

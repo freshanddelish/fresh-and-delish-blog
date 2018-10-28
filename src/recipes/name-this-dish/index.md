@@ -4,6 +4,7 @@ author: Kim Heenan
 type: post
 date: 2013-04-01T05:09:12+00:00
 url: /2013/04/01/2013-3-30-name-this-dish/
+featuredImage: toasted-fig-brie-linseed-slices.jpg
 categories:
   - Recipes
 tags:

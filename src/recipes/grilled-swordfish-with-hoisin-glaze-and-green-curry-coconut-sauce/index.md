@@ -4,6 +4,7 @@ author: Kim Heenan
 type: post
 date: 2013-04-12T11:19:51+00:00
 url: /2013/04/12/2013-4-11-grilled-swordfish-with-hoisin-glaze-and-green-curry-coconut-sauce/
+featuredImage: grilled-swordfish.jpg
 categories:
   - Recipes
 tags:

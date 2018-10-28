@@ -4,6 +4,7 @@ author: Kim Heenan
 type: post
 date: 2013-05-01T11:37:37+00:00
 url: /2013/05/01/2013-4-28-roast-eggplant-puree/
+featuredImage: eggplant-puree.jpg
 categories:
   - Recipes
 tags:

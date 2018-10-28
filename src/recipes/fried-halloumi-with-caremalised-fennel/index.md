@@ -4,6 +4,7 @@ author: Kim Heenan
 type: post
 date: 2013-04-29T14:42:03+00:00
 url: /2013/04/29/2013-4-28-fried-halloumi-with-caramelised-fennel/
+featuredImage: caremalised-fennel-halloumi.jpg
 categories:
   - Recipes
 tags:

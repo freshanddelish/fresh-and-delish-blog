@@ -4,6 +4,7 @@ author: Kim Heenan
 type: post
 date: 2013-04-18T12:40:15+00:00
 url: /2013/04/18/2013-4-18-lemon-scented-silverbeet-with-currants/
+featuredImage: silverbeet-lemon-currants.jpg
 categories:
   - Recipes
 tags:
@@ -16,7 +17,7 @@ tags:
 
 ---
 
-![](silverbeet-lemon-currants.jp)
+![](silverbeet-lemon-currants.jpg)
 
 This is a simple and effective way of livening up a humble plate of silverbeet. The mellow fruitiness of the olive oil is brightened by the lemon juice, and the currants add little bursts of sweetness to each mouthful.
 

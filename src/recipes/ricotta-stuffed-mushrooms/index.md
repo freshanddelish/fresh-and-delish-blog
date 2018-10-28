@@ -4,6 +4,7 @@ author: Kim Heenan
 type: post
 date: 2014-01-12T03:32:57+00:00
 url: /2014/01/12/2013-12-15-ricotta-stuffed-mushrooms/
+featuredImage: ricotta-stuffed-mushrooms.jpg
 categories:
   - Recipes
 tags:

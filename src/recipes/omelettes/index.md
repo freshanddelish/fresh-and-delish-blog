@@ -4,6 +4,7 @@ author: Kim Heenan
 type: post
 date: 2013-03-11T03:13:14+00:00
 url: /2013/03/11/2013-3-11-omlettes/
+featuredImage: sweet-potato-omelette.png
 categories:
   - Recipes
 tags:
@@ -14,7 +15,7 @@ tags:
 
 ---
 
-![](sweet-potato-omlette.png)
+![](sweet-potato-omelette.png)
 
 This is definitely one of our go-to recipes. Omelettes are quick, easy, tasty, healthy, and the ingredients are flexible depending on what’s on hand, which makes them a great weeknight dinner option.
 

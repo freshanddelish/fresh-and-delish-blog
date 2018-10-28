@@ -4,6 +4,7 @@ author: Kim Heenan
 type: post
 date: 2013-04-22T14:10:20+00:00
 url: /2013/04/22/2013-4-22-pumpkin-quinoa-porridge/
+featuredImage: pumpkin-quinoa-porridge.jpg
 categories:
   - Recipes
 tags:

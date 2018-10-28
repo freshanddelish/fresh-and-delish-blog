@@ -4,6 +4,7 @@ author: Kim Heenan
 type: post
 date: 2013-04-08T13:03:21+00:00
 url: /2013/04/08/2013-4-8-roast-pumpkin-halloumi-and-mint-scented-quinoa/
+featuredImage: quinoa-pumpkin-halloumi.jpg
 categories:
   - Recipes
 tags:

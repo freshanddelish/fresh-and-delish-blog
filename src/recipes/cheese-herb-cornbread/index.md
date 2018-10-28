@@ -4,6 +4,7 @@ author: Kim Heenan
 type: post
 date: 2014-05-30T03:44:17+00:00
 url: /2014/05/30/2013-4-23-cheese-herb-cornbread/
+featuredImage: cornbread.jpg
 categories:
   - Recipes
 tags:

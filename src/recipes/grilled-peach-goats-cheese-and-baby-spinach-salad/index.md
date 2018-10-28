@@ -4,6 +4,7 @@ author: Kim Heenan
 type: post
 date: 2013-03-10T12:36:34+00:00
 url: /2013/03/10/2013-3-10-grilled-peach-goats-cheese-and-baby-spinach-salad/
+featuredImage: baked-peach-&-spinach-salad.png
 categories:
   - Recipes
 tags:

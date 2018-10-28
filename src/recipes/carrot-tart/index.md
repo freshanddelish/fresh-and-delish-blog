@@ -4,6 +4,7 @@ author: Kim Heenan
 type: post
 date: 2013-04-16T13:56:41+00:00
 url: /2013/04/16/2013-4-15-carrot-tart/
+featuredImage: carrot-tart.jpg
 categories:
   - Recipes
 tags:

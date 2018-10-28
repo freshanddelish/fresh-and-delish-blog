@@ -4,6 +4,7 @@ author: Kim Heenan
 type: post
 date: 2014-12-15T05:23:37+00:00
 url: /2014/12/15/2014-11-25-orange-kale-carrot-tofu-salad/
+featuredImage: orange-tofu-kale-salad.jpg
 categories:
   - Recipes
 tags:

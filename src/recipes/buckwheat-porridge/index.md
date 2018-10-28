@@ -4,6 +4,7 @@ author: Kim Heenan
 type: post
 date: 2013-06-23T10:11:21+00:00
 url: /2013/06/23/2013-6-23-buckwheat-porridge/
+featuredImage: buckwheat-porridge.jpg
 categories:
   - Recipes
 tags:

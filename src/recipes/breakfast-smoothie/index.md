@@ -3,8 +3,8 @@ title: Breakfast smoothie
 author: Kim Heenan
 type: post
 date: 2013-03-11T03:44:58+00:00
-excerpt: "<p>I am very much a creature of habit when it comes to breakfast. Breakfast for me takes one of two forms, almost every day of the year. These smoothies are my warm-weather breakfast. (You'll find out what my cold-weather breakfast is when the Canberra weather decides to turn chilly for the year). Don't let the apparent monotony fool you, breakfast is one of my favourite meals of the day as it's so very yummy!</p>"
 url: /2013/03/11/2013-3-11-breakfast-smoothie/
+featuredImage: smoothie.png
 categories:
   - Recipes
 tags:
