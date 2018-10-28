@@ -9,10 +9,12 @@ const Wrapper = styled.section`
   flex-grow: 1;
 `
 
-const Container = props => (
-    <main role="main">
-        {props.children}
-    </main>
+const CardList = props => (
+    <div className="pa3 pa4-ns w-100 w-70-ns center">
+        <section className="w-100 mw8">
+            {props.children}
+        </section>
+    </div>
 );
 
-export default Container
+export default CardList

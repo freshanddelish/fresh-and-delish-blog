@@ -4,6 +4,7 @@ author: Kim Heenan
 type: post
 date: 2014-08-16T04:13:05+00:00
 url: /2014/08/16/2014-7-27-stuffed-capsicums-with-parsley-pesto/
+featuredImage: stuffed-capsicum.jpg
 categories:
   - Recipes
 tags:

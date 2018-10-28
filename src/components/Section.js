@@ -9,10 +9,10 @@ const Wrapper = styled.section`
   flex-grow: 1;
 `
 
-const Container = props => (
-    <main role="main">
-        {props.children}
-    </main>
+const Section = ({children}) => (
+    <section className="w-100 mw8">
+        {children}
+    </section>
 );
 
-export default Container
+export default Section

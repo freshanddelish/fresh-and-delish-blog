@@ -1,9 +1,12 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import { Link,graphql } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
 
 import Layout from '../components/Layout'
+import Container from '../components/Container'
+import Card from '../components/Card'
+import CardList from '../components/CardList'
 import config from '../utils/siteConfig'
 
 
@@ -26,19 +29,19 @@ const TagTemplate = ({ pageContext, data, location }) => {
   return (
     <Layout title={`Tagged with: ${tag}`}>
       <HeaderOverrides title={title} url={location.href} />
-      <h1>{tagHeader}</h1>
-      <ul>
-        {edges.map(({ node }) => {
-          const { slug } = node.fields;
-          const { title } = node.frontmatter;
-          return (
-            <li key={slug}>
-              <Link to={slug}>{title}</Link>
-            </li>
-          )
-        })}
-      </ul>
-      <Link to="/tags">All tags</Link>
+      
+      <Container>
+        <CardList>
+          {edges.map(({ node }) => {
+            const { slug } = node.fields;
+            const { title, featuredImage } = node.frontmatter;
+            const { excerpt } = node;
+            return (
+              <Card key={slug} url={slug} title={title} body={excerpt} featuredImage={featuredImage} />
+            )
+          })}
+        </CardList>
+      </Container>
     </Layout>
   );
 }
@@ -60,7 +63,15 @@ export const pageQuery = graphql`
           }
           frontmatter { 
             title
+            featuredImage {
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
+          excerpt
         }
       }
     }
