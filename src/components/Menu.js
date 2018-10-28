@@ -1,7 +1,7 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { Link, StaticQuery, graphql } from 'gatsby'
+import Img from "gatsby-image"
 import styled from 'styled-components'
-import logo from '../images/logo.png'
 import config from '../utils/siteConfig'
 
 const Header = styled.header`
@@ -46,42 +46,30 @@ const activeLinkStyle = {
   color: 'white',
 }
 
-const Menu = () => (
+const Menu = ({ logo }) => (
     <nav className="hide-print sans-serif  border-box pa3 ph5-l">
         <Link to="/" title="Home">
-            <img src={logo} className="w4" alt={config.siteTitleAlt} />
+            <Img fixed={logo.childImageSharp.fixed} className="w4 br2" alt={config.siteTitleAlt} />
         </Link>
         <div className="fr h2 pv2 tr">
-            <Link to="/tags" className="link f5 ml2 dim near-white">Tags</Link>
-            <Link to="/search" className="link f5 ml2 dim near-white fas fa-search" role="search" title="Search"></Link>
+            <Link to="/tags/" className="link f5 ml2 dim near-white">Tags</Link>
+            <Link to="/search/" className="link f5 ml2 dim near-white fas fa-search" role="search" title="Search"></Link>
         </div>
     </nav>
 );
 
-// const Menu = () => {
-//   return (
-//     <Header>
-//       <Nav>
-//         <ul>
-//           <li>
-//             <Link to="/" activeStyle={activeLinkStyle}>
-//               Home
-//             </Link>
-//           </li>
-//           <li>
-//             <Link to="/about/" activeStyle={activeLinkStyle}>
-//               About
-//             </Link>
-//           </li>
-//           <li>
-//             <Link to="/contact/" activeStyle={activeLinkStyle}>
-//               Contact
-//             </Link>
-//           </li>
-//         </ul>
-//       </Nav>
-//     </Header>
-//   )
-// }
+const query = graphql`
+  query {
+    logo: file(relativePath: { eq: "logo.png" }, sourceInstanceName: { eq: "images" }) {
+      childImageSharp {
+        fixed(width: 160) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+  }
+`
 
-export default Menu
+const MenuWrapper = () => ( <StaticQuery query={query} render={Menu} /> );
+
+export default MenuWrapper;

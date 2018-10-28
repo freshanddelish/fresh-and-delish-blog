@@ -8,7 +8,7 @@ import Header from './Header'
 // import Menu from '../components/Menu'
 // import Footer from '../components/Footer'
 
-const Layout = ({ children }) => {
+const Layout = ({ children, title, subtitle }) => {
   return (
     <div className="siteRoot">
       <Helmet>
@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
         <div className="siteContent">
           {/* FIXME(gdennis): add class is-page-true on recipes / blog posts */}
           <div className="ma0 bg-white">
-            <Header />
+            <Header title={title} subtitle={subtitle}/>
             {/* <Menu /> */}
             {children}
           </div>

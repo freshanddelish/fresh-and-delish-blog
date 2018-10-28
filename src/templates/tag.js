@@ -3,9 +3,7 @@ import Helmet from 'react-helmet'
 import { Link,graphql } from 'gatsby'
 import get from 'lodash/get'
 
-import Bio from '../components-old/Bio'
 import Layout from '../components/Layout'
-import { rhythm, scale } from '../utils/typography'
 import config from '../utils/siteConfig'
 
 
@@ -26,7 +24,7 @@ const TagTemplate = ({ pageContext, data, location }) => {
   const tagHeader = `${totalCount} recipe${ totalCount === 1 ? "" : "s"} tagged with "${tag}"`
 
   return (
-    <Layout>
+    <Layout title={`Tagged with: ${tag}`}>
       <HeaderOverrides title={title} url={location.href} />
       <h1>{tagHeader}</h1>
       <ul>
