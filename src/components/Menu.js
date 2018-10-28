@@ -51,7 +51,7 @@ const activeLinkStyle = {
 const Menu = ({ logo }) => (
     <nav className="hide-print sans-serif  border-box pa3 ph5-l">
         <Link to="/" title="Home">
-            <Img fixed={logo.childImageSharp.fixed} className="w4 br2" alt={config.siteTitleAlt} />
+            <img src={logo.childImageSharp.fixed.src} className="w4 br2" alt={config.siteTitleAlt} />
         </Link>
         <div className="fr h2 pv2 tr">
             <Link to="/tags/" className="link f5 ml3 dim near-white">Tags</Link>

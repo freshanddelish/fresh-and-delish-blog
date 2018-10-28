@@ -1,10 +1,11 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { Link, StaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
 import marketHeaderImage from '../images/market-header.png'
 import Menu from './Menu'
 import logo from '../images/logo.png'
 import config from '../utils/siteConfig'
+import Img from "gatsby-image"
 
 const Nav = styled.nav`
   width: 100%;
@@ -43,8 +44,8 @@ const activeLinkStyle = {
   color: 'white',
 }
 
-const Header = ({title, subtitle}) => (
-    <header className="cover bg-top" style={{backgroundImage: `url(${marketHeaderImage})`, backgroundPosition: 'center'}}>
+const Header = ({data, title, subtitle}) => (
+    <header className="cover bg-top" style={{backgroundImage: `url(${data.header.childImageSharp.fixed.src})`, backgroundPosition: 'center'}}>
         <div className="bg-black-30 bb bt">
             <Menu />
             <div id="hdr" className="tc-l pv4-ns pv5-l pv2 ph3 ph4-ns">
@@ -56,6 +57,26 @@ const Header = ({title, subtitle}) => (
         </div>
     </header>
 );
+
+const query = graphql`
+  query {
+    header: file(relativePath: { eq: "market-header.png" }, sourceInstanceName: { eq: "images" }) {
+      childImageSharp {
+        fixed(width: 1433, toFormat: JPG) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+  }
+`
+
+const HeaderWrapper = (props) => ( 
+  <StaticQuery
+    query={query}
+    render={data => <Header data={data} {...props} />}
+    />
+);
+
 //   return (
 
 //     <Header>
@@ -82,4 +103,4 @@ const Header = ({title, subtitle}) => (
 //   )
 // }
 
-export default Header
+export default HeaderWrapper
