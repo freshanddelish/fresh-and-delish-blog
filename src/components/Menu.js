@@ -3,6 +3,8 @@ import { Link, StaticQuery, graphql } from 'gatsby'
 import Img from "gatsby-image"
 import styled from 'styled-components'
 import config from '../utils/siteConfig'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSearch } from '@fortawesome/free-solid-svg-icons'
 
 const Header = styled.header`
   background: ${props => props.theme.colors.base};
@@ -52,8 +54,10 @@ const Menu = ({ logo }) => (
             <Img fixed={logo.childImageSharp.fixed} className="w4 br2" alt={config.siteTitleAlt} />
         </Link>
         <div className="fr h2 pv2 tr">
-            <Link to="/tags/" className="link f5 ml2 dim near-white">Tags</Link>
-            <Link to="/search/" className="link f5 ml2 dim near-white fas fa-search" role="search" title="Search"></Link>
+            <Link to="/tags/" className="link f5 ml3 dim near-white">Tags</Link>
+            <Link to="/search/" className="link f5 ml3 dim near-white" role="search" title="Search">
+                <FontAwesomeIcon icon={faSearch}/>
+            </Link>
         </div>
     </nav>
 );
