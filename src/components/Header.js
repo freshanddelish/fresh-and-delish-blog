@@ -44,8 +44,8 @@ const activeLinkStyle = {
   color: 'white',
 }
 
-const Header = ({data, title, subtitle}) => (
-    <header className="cover bg-top" style={{backgroundImage: `url(${data.header.childImageSharp.fixed.src})`, backgroundPosition: 'center'}}>
+const Header = ({data, title, subtitle, featuredImage}) => (
+    <header className="cover bg-top" style={{backgroundImage: `url(${featuredImage || data.header.childImageSharp.fixed.src})`, backgroundPosition: 'center'}}>
         <div className="bg-black-40 bb bt">
             <Menu />
             <div id="hdr" className="tc-l pv4-ns pv5-l pv2 ph3 ph4-ns">

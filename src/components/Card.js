@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
 import Img from "gatsby-image"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChevronCircleRight } from '@fortawesome/free-solid-svg-icons'
 
 const Wrapper = styled.section`
   margin: 0 auto auto;
@@ -29,7 +31,7 @@ const Card = ({ url, featuredImage, title, publishDate, body, ...props }) => (
                         <h1 className="f3 fw1 mt0 lh-title"><Link to={url} className="color-inherit dim link">{title}</Link></h1>
                         <div className="f6 f5-l lh-copy nested-copy-line-height nested-links">
                             <excerpt dangerouslySetInnerHTML={{__html: body}}></excerpt>
-                            <p className="pa0 sans-serif f7"><Link to={url} className="ba br3 pa2 link">Continue Reading <i className="fas fa-chevron-circle-right"></i></Link></p>
+                            <p className="pa0 sans-serif f7"><Link to={url} className="ba br3 pa2 link">Continue Reading <FontAwesomeIcon icon={faChevronCircleRight}/></Link></p>
                             
                         </div>
                     </div>
