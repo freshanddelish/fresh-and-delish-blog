@@ -1,43 +1,47 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
-import get from 'lodash/get'
-import kebabCase from 'lodash/kebabCase'
 import Helmet from 'react-helmet'
+import kebabCase from 'lodash/kebabCase'
 
-import Bio from '../components-old/Bio'
-import Layout from '../components-old/layout'
-// import { rhythm } from '../utils/typography'
+import Layout from '../components/Layout'
+import Container from '../components/Container'
+import Card from '../components/Card'
+import CardList from '../components/CardList'
+import PageBody from '../components/PageBody'
+import config from '../utils/siteConfig'
 
-class TagsPage extends React.Component {
-  render() {
-    const siteTitle = get(this, 'props.data.site.siteMetadata.title')
-    const siteDescription = get(
-      this,
-      'props.data.site.siteMetadata.description'
-    )
-    const tags = this.props.data.allMarkdownRemark.group;
+const HeaderOverrides = ({title, url}) => (
+  <Helmet>
+    <title>{title}</title>
+    <meta
+      property="og:title"
+      content={title}
+    />
+    <meta property="og:url" content={url} />
+  </Helmet>);
 
-    return (
-      <Layout location={this.props.location}>
-        <Helmet
-          htmlAttributes={{ lang: 'en' }}
-          meta={[{ name: 'description', content: siteDescription }]}
-          title={siteTitle}
-        />
-        <Bio />
-        <h1>Tags</h1>
-        <ul>
+const TagsPage = ({ pageContext, data, location }) => {
+  const title = `Tags - ${config.siteTitle}`;
+  const tags = data.allMarkdownRemark.group;
+  return (
+    <Layout title={title}>
+      <HeaderOverrides title={title} url={location.href} />
+
+      <Container>
+        <PageBody>
+          <ul>
           {tags.map(tag => (
-            <li key={tag.fieldValue}>
-              <Link to={`/tags/${kebabCase(tag.fieldValue)}`}>
-                {tag.fieldValue} ({tag.totalCount})
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </Layout>
-    )
-  }
+              <li key={tag.fieldValue}>
+                <Link to={`/tags/${kebabCase(tag.fieldValue)}`}>
+                  {tag.fieldValue} ({tag.totalCount})
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </PageBody>
+      </Container>
+    </Layout>
+  );
 }
 
 export default TagsPage

@@ -30,7 +30,7 @@ const Card = ({ url, featuredImage, title, publishDate, body, ...props }) => (
                     <div className="w-100 w6-ns pl3-ns">
                         <h1 className="f3 fw1 mt0 lh-title"><Link to={url} className="color-inherit dim link">{title}</Link></h1>
                         <div className="f6 f5-l lh-copy nested-copy-line-height nested-links">
-                            <excerpt dangerouslySetInnerHTML={{__html: body}}></excerpt>
+                            <div dangerouslySetInnerHTML={{__html: body}}></div>
                             <p className="pa0 sans-serif f7"><Link to={url} className="ba br3 pa2 link">Continue Reading <FontAwesomeIcon icon={faChevronCircleRight}/></Link></p>
                             
                         </div>
