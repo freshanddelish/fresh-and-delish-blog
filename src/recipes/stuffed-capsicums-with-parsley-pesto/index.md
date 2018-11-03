@@ -19,7 +19,7 @@ tags:
 
 ![](stuffed-capsicum.jpg)
 
-It is possible to overdose on parsley? This is the question my partner’s been asking as he shares his suspicions that I’m trying to poison him with the herb, we’ve been eating that much of it lately! No, I don’t have a weird parsley obsession or craving (and I most certainly am not trying to poison anyone), we just have two parsley plants that are on a mission to take over the world, starting with our veggie garden. In a battle that’s been ongoing for several months now, I’m starting to get the upper hand, in large part thanks to regular batches of [parsley pesto](#parsleypesto).
+It is possible to overdose on parsley? This is the question my partner’s been asking as he shares his suspicions that I’m trying to poison him with the herb, we’ve been eating that much of it lately! No, I don’t have a weird parsley obsession or craving (and I most certainly am not trying to poison anyone), we just have two parsley plants that are on a mission to take over the world, starting with our veggie garden. In a battle that’s been ongoing for several months now, I’m starting to get the upper hand, in large part thanks to regular batches of [parsley pesto](/2014/08/16/2014-7-27-stuffed-capsicums-with-parsley-pesto/#parsleypesto).
 
 <!--more-->
 
