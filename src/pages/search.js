@@ -24,7 +24,6 @@ const HeaderOverrides = ({title, url}) => (
 class Search extends React.Component {
   constructor(props) {
     super(props);
-    console.log("index", {index: props.data.siteSearchIndex});
     this.state = {
       query: ``,
       results: [],
