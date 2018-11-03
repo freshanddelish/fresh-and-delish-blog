@@ -16,9 +16,7 @@ tags:
 
 ![](spinach-souffle.png)
 
-If I had to choose one dish to have for dinner every night for the rest of my life, these spinach and fetta soufflés would quite possibly be it! Knowing the soufflé’s reputation for being highly temperamental and near-on impossible to pull off, I was somewhat apprehensive the first time I attempted this recipe. However, years later I can happily report that I have made this recipe dozens of times and never once had it fail. The recipe has developed from the spinach soufflé recipe in [Joy of Cooking: All about Vegetarian Cooking][joy-of-cooking] by Irma Rombauer et al.
-
-<!--more-->
+If I had to choose one dish to have for dinner every night for the rest of my life, these spinach and fetta soufflés would quite possibly be it! Knowing the soufflé’s reputation for being highly temperamental and near-on impossible to pull off, I was somewhat apprehensive the first time I attempted this recipe. However, years later I can happily report that I have made this recipe dozens of times and never once had it fail. <!--more--> The recipe has developed from the spinach soufflé recipe in [Joy of Cooking: All about Vegetarian Cooking][joy-of-cooking] by Irma Rombauer et al.
 
 The one occasion that springs to mind of when things did not quite go according to plan was when I was visiting my sister and cooked these soufflés for dinner. She didn’t have any ramekins so I instead made them in oven-safe coffee mugs, and with the different shape I somewhat misjudged their capacity… half an hour later lil’ sis had something of a mess in the bottom of her oven, but honestly the soufflé left in the coffee mugs (which, to be fair, was most of it) tasted as good as always. As a pointer though, my ramekins have a capacity of 350ml, measuring about 9cm in diameter and 6cm high.
 

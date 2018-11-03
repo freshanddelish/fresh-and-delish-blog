@@ -29,8 +29,11 @@ module.exports = async ({markdownAST, markdownNode}) => {
 
     let foundExcerptTerminator = false;
     const htmlAst = toHAST(markdownAST, {allowDangerousHTML: true})
-    flatMap(htmlAst, node => {
-        if (foundExcerptTerminator === true) {
+    const keepParents = [];
+    const excerptAst = flatMap(htmlAst, (node, index, parent) => {
+        if (keepParents.indexOf(node) !== -1) {
+            return [node]
+        } else if (foundExcerptTerminator === true) {
             return []
         } else if (node.type === `element` && node.tagName === `img`) {
             return []
@@ -38,10 +41,11 @@ module.exports = async ({markdownAST, markdownNode}) => {
             foundExcerptTerminator = true;
             return []
         } else {
+            keepParents.push(parent);
             return [node]
         }
     })
-    const excerptHtml = hastToHTML(htmlAst)
+    const excerptHtml = hastToHTML(excerptAst)
 
     pluginCache.set(cacheKey, excerptHtml);
 
