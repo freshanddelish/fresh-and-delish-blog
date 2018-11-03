@@ -20,13 +20,9 @@ tags:
 
 ![](crunchy-mixed-greens-salad.jpg)
 
-<figure> 
-
-<blockquote>“There might not be enough food… the boys are coming and they eat A LOT.”</blockquote>
-
-<figcaption class="source">&mdash; Lil’ sis reviewing my plans for Christmas lunch.</figcaption>
-
-</figure>
+> “There might not be enough food… the boys are coming and they eat A LOT.”
+>
+> &mdash; Lil’ sis reviewing my plans for Christmas lunch.
 
 Despite being fairly confident that there would be plenty of food I agreed to add an extra dish, opting for a leafy salad to complement the already substantial meal. As it turns out, we were still polishing off the left overs three days later! (Admittedly left-overs _are_ almost compulsory following Christmas lunch.) In this case it definitely worked out for the best because this creation is really very good (am I allowed to say that about my own recipe?)
  
