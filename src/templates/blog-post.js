@@ -17,11 +17,10 @@ const HeaderOverrides = ({title, url}) => (
     <meta property="og:url" content={url} />
   </Helmet>);
 
-const BlogPostTemplate = ({ pageContext, data, location }) => {
+const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark;
   const htmlTitle = `${post.frontmatter.title} - ${config.siteTitle}`;
   const subtitle = `Published ${post.frontmatter.date}`;
-  const featuredImage = post.frontmatter.featuredImage.childImageSharp.fixed.src;
 
   return (
     <Layout title={post.frontmatter.title} subtitle={subtitle}>
@@ -38,26 +37,12 @@ export default BlogPostTemplate
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
-    site {
-      siteMetadata {
-        title
-        author
-      }
-    }
     markdownRemark(fields: { slug: { eq: $slug } }) {
-      id
       excerpt
       html
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
-        featuredImage {
-          childImageSharp {
-            fixed(width: 1000, toFormat: JPG) {
-              ...GatsbyImageSharpFixed
-            }
-          }
-        }
       }
     }
   }

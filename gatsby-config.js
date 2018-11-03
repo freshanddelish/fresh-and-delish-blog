@@ -37,7 +37,6 @@ module.exports = {
         plugins: [
           'gatsby-remark-smartypants',
           'gatsby-remark-external-links',
-          // `gatsby-remark-unwrap-images`,
           `gatsby-remark-excerpt`,
           {
             resolve: `gatsby-remark-images`,

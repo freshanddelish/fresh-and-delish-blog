@@ -1,17 +1,4 @@
 import React from 'react'
-import styled from 'styled-components'
-import { Link } from 'gatsby'
-import Img from "gatsby-image"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChevronCircleRight } from '@fortawesome/free-solid-svg-icons'
-
-const Wrapper = styled.section`
-  margin: 0 auto auto;
-  width: 100%;
-  max-width: ${props => props.theme.sizes.maxWidth};
-  padding: 3em 1.5em 2em;
-  flex-grow: 1;
-`
 
 const PageBody = ({ body, ...props }) => (
     <article 
