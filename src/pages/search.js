@@ -24,6 +24,7 @@ const HeaderOverrides = ({title, url}) => (
 class Search extends React.Component {
   constructor(props) {
     super(props);
+    console.log("index", {index: props.data.siteSearchIndex});
     this.state = {
       query: ``,
       results: [],
@@ -33,6 +34,7 @@ class Search extends React.Component {
   render() {
     const title = `Search - ${config.siteTitle}`;
     const { location } = this.props;
+    const edges = this.props.data.allMarkdownRemark.edges;
 
     return (
       <Layout title="Search">
@@ -40,14 +42,17 @@ class Search extends React.Component {
 
         <Container>
           <PageBody>
-            <input id="search" type="text" placeholder="Search..." class="pa2 br3 ba bw1 b--gray lh-title f3 sans-serif w-100" value={this.state.query} onChange={this.autocomplete} onSubmit={this.search} />
+            <input id="search" type="text" placeholder="Search..." className="pa2 br3 ba bw1 b--gray lh-title f3 sans-serif w-100" value={this.state.query} onChange={this.autocomplete} onSubmit={this.search} />
             <p>Type a search above to see results below:</p>
           </PageBody>
 
           <CardList>
             {this.state.results.map(page => {
-              const { slug, title } = page;
-              return (<Card key={slug} url={slug} title={title} />);
+              const { slug } = page;
+              const { node } = edges.find(edge => edge.node.fields.slug === slug);
+              const { title, featuredImage } = node.frontmatter;
+              const { excerpt } = node;
+              return (<Card key={slug} url={slug} title={title} body={excerpt} featuredImage={featuredImage} />);
             })}
           </CardList>
         </Container>
@@ -67,7 +72,12 @@ class Search extends React.Component {
     this.setState({
       query,
       results: this.index.search(query, {
-        expand: autocomplete
+        expand: autocomplete,
+        fields: {
+          title: { boost: 3 },
+          tags: { boost: 3 },
+          content: { boost: 1},
+        }
       })
         .map(({
           ref,
@@ -80,8 +90,28 @@ export default Search
 
 export const query = graphql`
   query {
+    allMarkdownRemark {
+      edges { 
+        node { 
+          fields {
+            slug
+          }
+          frontmatter { 
+            title
+            featuredImage {
+              childImageSharp {
+                fluid(toFormat: JPG) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+          excerpt: excerptHtml
+        }
+      }
+    }
     siteSearchIndex {
-        index
+      index
     }
   }
 `

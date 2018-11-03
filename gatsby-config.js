@@ -1,3 +1,6 @@
+const remark = require('remark')
+const stripMarkdown = require('strip-markdown')
+
 module.exports = {
   siteMetadata: {
     title: 'Fresh & Delish',
@@ -77,12 +80,14 @@ module.exports = {
         fields: [
           'title',
           'tags',
+          'content',
         ],
         resolvers: {
           MarkdownRemark: {
             title: node => node.frontmatter.title,
             tags: node => node.frontmatter.tags,
             slug: node => node.fields.slug,
+            content: node => remark().use(stripMarkdown).processSync(node.rawMarkdownBody).contents,
           }
         }
       }
