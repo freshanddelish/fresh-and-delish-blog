@@ -1,9 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import { Link,graphql } from 'gatsby'
-import get from 'lodash/get'
+import { graphql } from 'gatsby'
 
-// import { rhythm, scale } from '../utils/typography'
 import Layout from '../components/Layout'
 import Container from '../components/Container'
 import PageBody from '../components/PageBody'
@@ -26,7 +24,7 @@ const BlogPostTemplate = ({ pageContext, data, location }) => {
   const featuredImage = post.frontmatter.featuredImage.childImageSharp.fixed.src;
 
   return (
-    <Layout title={post.frontmatter.title} subtitle={subtitle} featuredImage={featuredImage}>
+    <Layout title={post.frontmatter.title} subtitle={subtitle}>
       <HeaderOverrides title={htmlTitle} url={location.href} />
 
       <Container>
@@ -55,12 +53,12 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         featuredImage {
           childImageSharp {
-            fixed(width: 1200, toFormat: JPG) {
+            fixed(width: 1000, toFormat: JPG) {
               ...GatsbyImageSharpFixed
             }
           }
         }
-  }
+      }
     }
   }
 `

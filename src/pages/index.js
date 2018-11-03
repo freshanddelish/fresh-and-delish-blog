@@ -3,71 +3,60 @@ import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 
-import Bio from '../components-old/Bio'
-import Layout from '../components-old/layout'
-// import { rhythm } from '../utils/typography'
+import Layout from '../components/Layout'
+import Container from '../components/Container'
+import Card from '../components/Card'
+import CardList from '../components/CardList'
+import config from '../utils/siteConfig'
 
-class BlogIndex extends React.Component {
-  render() {
-    const siteTitle = get(this, 'props.data.site.siteMetadata.title')
-    const siteDescription = get(
-      this,
-      'props.data.site.siteMetadata.description'
-    )
-    const posts = get(this, 'props.data.allMarkdownRemark.edges')
+const BlogIndex = ({ pageContext, data, location }) => {
+  const { edges, totalCount } = data.allMarkdownRemark
+  const title = config.siteTitle;
 
-    return (
-      <Layout location={this.props.location}>
-        <Helmet
-          htmlAttributes={{ lang: 'en' }}
-          meta={[{ name: 'description', content: siteDescription }]}
-          title={siteTitle}
-        />
-        <Bio />
-        {posts.map(({ node }) => {
-          const title = get(node, 'frontmatter.title') || node.fields.slug
-          return (
-            <div key={node.fields.slug}>
-              <h3
-                style={{
-                  // marginBottom: rhythm(1 / 4),
-                }}
-              >
-                <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-              <small>{node.frontmatter.date}</small>
-              <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
-            </div>
-          )
-        })}
-      </Layout>
-    )
-  }
+  return (
+    <Layout title={title} subtitle={config.siteDescription}>
+      
+      <Container>
+        <CardList>
+          {edges.map(({ node }) => {
+            const { slug } = node.fields;
+            const { title, featuredImage } = node.frontmatter;
+            const { excerpt } = node;
+            return (
+              <Card key={slug} url={slug} title={title} body={excerpt} featuredImage={featuredImage} />
+            )
+          })}
+        </CardList>
+      </Container>
+    </Layout>
+  );
 }
 
 export default BlogIndex
 
 export const pageQuery = graphql`
   query {
-    site {
-      siteMetadata {
-        title
-        description
-      }
-    }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      edges {
-        node {
-          excerpt
+    allMarkdownRemark(
+      limit: 2000
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
+      totalCount
+      edges { 
+        node { 
           fields {
             slug
           }
-          frontmatter {
-            date(formatString: "DD MMMM, YYYY")
+          frontmatter { 
             title
+            featuredImage {
+              childImageSharp {
+                fluid(toFormat: JPG) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
+          excerpt: excerptHtml
         }
       }
     }
