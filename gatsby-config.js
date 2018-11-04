@@ -5,10 +5,10 @@ module.exports = {
   siteMetadata: {
     title: 'Fresh & Delish',
     author: 'Kim',
-    description: 'A starter blog demonstrating what Gatsby can do.',
-    siteUrl: 'https://gatsbyjs.github.io/gatsby-starter-blog/',
+    description: 'Delicious and healthy gluten-free vegetarian and fish recipes',
+    siteUrl: 'https://freshanddelish.github.io/',
   },
-  pathPrefix: '/gatsby-starter-blog',
+  pathPrefix: '/',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
