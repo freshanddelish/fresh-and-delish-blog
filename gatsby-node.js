@@ -38,11 +38,11 @@ exports.createPages = ({ graphql, actions }) => {
         }
 
         // Create blog posts pages.
-        const posts = result.data.allMarkdownRemark.edges;
+        const posts = result.data.allMarkdownRemark.edges
 
         _.each(posts, (post, index) => {
-          const previous = index === posts.length - 1 ? null : posts[index + 1].node;
-          const next = index === 0 ? null : posts[index - 1].node;
+          const previous = index === posts.length - 1 ? null : posts[index + 1].node
+          const next = index === 0 ? null : posts[index - 1].node
 
           createPage({
             path: post.node.fields.slug,
@@ -107,7 +107,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
   if (node.internal.type === `MarkdownRemark`) {
-    const url = node.frontmatter.url;
+    const url = node.frontmatter.url
     const value = url !== undefined ? url : createFilePath({ node, getNode })
     createNodeField({
       name: `slug`,
