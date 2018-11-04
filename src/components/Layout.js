@@ -5,6 +5,7 @@ import '../styles/story.less'
 import favicon from '../images/favicon.ico'
 import config from '../utils/siteConfig'
 import Header from './Header'
+import Footer from './Footer'
 
 const Layout = ({ children, title, subtitle, featuredImage }) => {
   return (
