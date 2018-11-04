@@ -41,7 +41,6 @@ class Search extends React.Component {
         <Container>
           <PageBody>
             <input id="search" type="text" placeholder="Search..." className="pa2 br3 ba bw1 b--gray lh-title f3 sans-serif w-100" value={this.state.query} onChange={this.autocomplete} onSubmit={this.search} />
-            <p>Type a search above to see results below:</p>
           </PageBody>
 
           <CardList>
