@@ -5,6 +5,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Container from '../components/Container'
 import PageBody from '../components/PageBody'
+import TagList from '../components/TagList'
 import config from '../utils/siteConfig'
 
 const HeaderOverrides = ({title, url}) => (
@@ -28,6 +29,7 @@ const BlogPostTemplate = ({ data, location }) => {
 
       <Container>
         <PageBody body={post.html} />
+        <TagList tags={post.frontmatter.tags} />
       </Container>
     </Layout>
   );
@@ -43,6 +45,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        tags
       }
     }
   }
