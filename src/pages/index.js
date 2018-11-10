@@ -1,5 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import Image from 'gatsby-image';
 
 import Layout from '../components/Layout'
 import Container from '../components/Container'
@@ -9,7 +10,14 @@ import config from '../utils/siteConfig'
 
 const BlogIndex = ({ pageContext, data, location }) => {
   const { edges, totalCount } = data.allMarkdownRemark
-  const title = config.siteTitle;
+  const title = (
+    <Image 
+      fluid={data.logo.childImageSharp.fluid}
+      className="br4 center"
+      style={{maxWidth: "380px"}}
+      alt={"Fresh & Delish"}
+      />
+  )
 
   return (
     <Layout title={title} subtitle={config.siteDescription}>
@@ -34,6 +42,13 @@ export default BlogIndex
 
 export const pageQuery = graphql`
   query {
+    logo: file(relativePath: { eq: "logo.png" }, sourceInstanceName: { eq: "images" }) {
+      childImageSharp {
+        fluid(maxWidth: 380) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
     allMarkdownRemark(
       limit: 2000
       sort: { fields: [frontmatter___date], order: DESC }
