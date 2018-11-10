@@ -1,5 +1,5 @@
 import React from 'react'
-import {graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/Layout'
@@ -65,10 +65,12 @@ class Search extends React.Component {
 
   search = (event, autocomplete = false) => {
     const query = event.target.value;
+    // Strip diacritics
+    const normalizedQuery = query.normalize('NFD').replace(/[\u0300-\u036f]/g, "")
     this.index = this.getOrCreateIndex();
     this.setState({
       query,
-      results: this.index.search(query, {
+      results: this.index.search(normalizedQuery, {
         expand: autocomplete,
         fields: {
           title: { boost: 3 },

@@ -86,7 +86,7 @@ module.exports = {
             title: node => node.frontmatter.title,
             tags: node => node.frontmatter.tags,
             slug: node => node.fields.slug,
-            content: node => remark().use(stripMarkdown).processSync(node.rawMarkdownBody).contents,
+            content: node => remark().use(stripMarkdown).processSync(node.rawMarkdownBody).contents.normalize('NFD').replace(/[\u0300-\u036f]/g, ""),
           }
         }
       }
